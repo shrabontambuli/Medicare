@@ -21,28 +21,26 @@ const Header = () => {
                             <NavLink to='/' className={({ isActive }) => (isActive ? 'text-[#1CB5BD]' : '')}>Home</NavLink>
                         </li>
                         <li>
-                            <NavLink to='/' className={({ isActive }) => (isActive ? 'text-[#1CB5BD]' : '')}>Our Serivces</NavLink>
+                            <NavLink to='/serivces' className={({ isActive }) => (isActive ? 'text-[#1CB5BD]' : '')}>Our Serivces</NavLink>
                         </li>
                         <li>
-                            <NavLink to='/' className={({ isActive }) => (isActive ? 'text-[#1CB5BD]' : '')}>Find Docter</NavLink>
+                            <NavLink to='/docter' className={({ isActive }) => (isActive ? 'text-[#1CB5BD]' : '')}>Find Docter</NavLink>
                         </li>
                         <li>
-                            <NavLink to='/' className={({ isActive }) => (isActive ? 'text-[#1CB5BD]' : '')}>How it works</NavLink>
+                            <NavLink to='/works' className={({ isActive }) => (isActive ? 'text-[#1CB5BD]' : '')}>How it works</NavLink>
                         </li>
                         <li>
-                            <NavLink to='/' className={({ isActive }) => (isActive ? 'text-[#1CB5BD]' : '')}>Reviews</NavLink>
+                            <NavLink to='/reviews' className={({ isActive }) => (isActive ? 'text-[#1CB5BD]' : '')}>Reviews</NavLink>
                         </li>
                     </ul>
                 </div>
-                <div className='mx-auto'>
-                    <div className="flex items-center">
-                        <div>
-                            <img className="w-9" src="../../../public/icons/fluent_call-32-regular.png" alt="" />
-                        </div>
-                        <div>
-                            <p className="font-semibold">+233554205473</p>
-                            <p className="text-xs">Mon-Sat 9am - 6am</p>
-                        </div>
+                <div className="flex items-center justify-center lg:justify-end">
+                    <div>
+                        <img className="w-9" src="../../../public/icons/fluent_call-32-regular.png" alt="" />
+                    </div>
+                    <div>
+                        <p className="font-semibold">+233554205473</p>
+                        <p className="text-xs text-[#BBB]">Mon-Sat 9am - 6am</p>
                     </div>
                 </div>
             </nav>
