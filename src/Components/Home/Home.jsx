@@ -106,26 +106,26 @@ const Home = () => {
                     <h2 className="text-[#E9F7F8] text-4xl font-normal">Our Department</h2>
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 mt-16">
-                    <div className="border border-[#E9F7F8] rounded-sm p-5">
+                    <div className="border border-[#E9F7F8] rounded-sm p-5 h-96">
                         <div className="flex items-center">
                             <img className="w-16" src="../../../public/icons/neurology.png" alt="" />
                             <h2 className="text-[#E9F7F8] text-xl font-medium ms-4">Neurology</h2>
                         </div>
                         <div className="mt-6">
-                            <p className="text-[#cae8ec]">Neurology is the branch of medicine concerned with the study and treatment of disorders of the nervous system. The nervous system is a complex, sophisticated system that regulates and coordinates body activities. It has two major divisions: Central nervous system: the brain and spinal cord..........</p>
+                            <p className="text-[#cae8ec]">Neurology is the branch of medicine concerned with the study and treatment of disorders of the nervous system. The nervous system is a complex, sophisticated system that regulates and coordinates body..........</p>
                         </div>
                         <div className="mt-4">
                             <button className="text-[#E9F7F8] text-sm pb-10">READ MORE</button>
                         </div>
                     </div>
                     <div>
-                        <div className="border border-[#E9F7F8] rounded-sm p-5">
+                        <div className="border border-[#E9F7F8] rounded-sm p-5 h-96">
                             <div className="flex items-center">
                                 <img className="w-16" src="../../../public/icons/blood_pressure.png" alt="" />
                                 <h2 className="text-[#E9F7F8] text-xl font-medium ms-4">Cardiology</h2>
                             </div>
                             <div className="mt-6">
-                                <p className="text-[#cae8ec]">Cardiology is the study of the heart. Cardiology is a branch of medicine that deals with disorders of the heart and the cardiovascular system. The field includes medical diagnosis and treatment of congenital heart defects, coronary artery disease, heart failure, valvular heart disease, and electrophysiology. ...........</p>
+                                <p className="text-[#cae8ec]">Cardiology is the study of the heart. Cardiology is a branch of medicine that deals with disorders of the heart and the cardiovascular system. The field includes medical diagnosis and treatment of congenital heart...........</p>
                             </div>
                             <div className="mt-4">
                                 <button className="text-[#E9F7F8] text-sm pb-10">READ MORE</button>
@@ -133,13 +133,13 @@ const Home = () => {
                         </div>
                     </div>
                     <div>
-                        <div className="border border-[#E9F7F8] rounded-sm p-5">
+                        <div className="border border-[#E9F7F8] rounded-sm p-5 h-96">
                             <div className="flex items-center">
                                 <img className="w-16" src="../../../public/icons/surgical_sterilization.png" alt="" />
                                 <h2 className="text-[#E9F7F8] text-xl font-medium ms-4">Surgery</h2>
                             </div>
                             <div className="mt-6">
-                                <p className="text-[#cae8ec]">Surgery is a medical specialty that uses manual and/or instrumental techniques to physically reach into a subjects body in order to investigate or treat pathological conditions such as a disease or injury, to alter bodily functions, to improve appearance, or to remove/replace unwanted tissues or foreign bodies...........</p>
+                                <p className="text-[#cae8ec]">Surgery is a medical specialty that uses manual and/or instrumental techniques to physically reach into a subjects body in order to investigate or treat pathological conditions such as a disease...........</p>
                             </div>
                             <div className="mt-4">
                                 <button className="text-[#E9F7F8] text-sm pb-10">READ MORE</button>
@@ -147,13 +147,13 @@ const Home = () => {
                         </div>
                     </div>
                     <div>
-                        <div className="border border-[#E9F7F8] rounded-sm p-5">
+                        <div className="border border-[#E9F7F8] rounded-sm p-5 h-96">
                             <div className="flex items-center">
                                 <img className="w-16" src="../../../public/icons/gastroenterology.png" alt="" />
                                 <h2 className="text-[#E9F7F8] text-xl font-medium ms-4">Neurology</h2>
                             </div>
                             <div className="mt-6">
-                                <p className="text-[#cae8ec]">Neurology is the branch of medicine concerned with the study and treatment of disorders of the nervous system. The nervous system is a complex, sophisticated system that regulates and coordinates body activities. It has two major divisions: Central nervous system: the brain and spinal cord..........</p>
+                                <p className="text-[#cae8ec]">Neurology is the branch of medicine concerned with the study and treatment of disorders of the nervous system. The nervous system is a complex, sophisticated system that regulates and coordinates body..........</p>
                             </div>
                             <div className="mt-4">
                                 <button className="text-[#E9F7F8] text-sm pb-10">READ MORE</button>
@@ -161,13 +161,13 @@ const Home = () => {
                         </div>
                     </div>
                     <div>
-                        <div className="border border-[#E9F7F8] rounded-sm p-5">
+                        <div className="border border-[#E9F7F8] rounded-sm p-5 h-96">
                             <div className="flex items-center">
                                 <img className="w-16" src="../../../public/icons/tooth.png" alt="" />
                                 <h2 className="text-[#E9F7F8] text-xl font-medium ms-4">Dentist</h2>
                             </div>
                             <div className="mt-6">
-                                <p className="text-[#cae8ec]">A dentist is a doctor, so they complete a path of study that similar to that of a medical doctor. The first step is to complete an undergraduate program in a related field like biology, chemistry, health, or math, and earn a bachelor of science degree. Next is a dental admissions test, which you need to take to apply ...........</p>
+                                <p className="text-[#cae8ec]">A dentist is a doctor, so they complete a path of study that similar to that of a medical doctor. The first step is to complete an undergraduate program in a related field like biology, chemistry, health, or math, and earn a...........</p>
                             </div>
                             <div className="mt-4">
                                 <button className="text-[#E9F7F8] text-sm pb-10">READ MORE</button>
@@ -175,13 +175,13 @@ const Home = () => {
                         </div>
                     </div>
                     <div>
-                        <div className="border border-[#E9F7F8] rounded-sm p-5">
+                        <div className="border border-[#E9F7F8] rounded-sm p-5 h-96">
                             <div className="flex items-center">
                                 <img className="w-16" src="../../../public/icons/opthalmology.png" alt="" />
                                 <h2 className="text-[#E9F7F8] text-xl font-medium ms-4">Opthalmology</h2>
                             </div>
                             <div className="mt-6">
-                                <p className="text-[#cae8ec]">Ophthalmology, medical specialty dealing with the diagnosis and treatment of diseases and disorders of the eye. The first ophthalmologists were oculists. These paramedical specialists practiced on an itinerant basis during the Middle Ages. A German physician who wrote on eye diseases in the 16th century, is...........</p>
+                                <p className="text-[#cae8ec]">Ophthalmology, medical specialty dealing with the diagnosis and treatment of diseases and disorders of the eye. The first ophthalmologists were oculists. These paramedical specialists practice.........</p>
                             </div>
                             <div className="mt-4">
                                 <button className="text-[#E9F7F8] text-sm pb-10">READ MORE</button>
@@ -189,13 +189,13 @@ const Home = () => {
                         </div>
                     </div>
                     <div>
-                        <div className="border border-[#E9F7F8] rounded-sm p-5">
+                        <div className="border border-[#E9F7F8] rounded-sm p-5 h-96">
                             <div className="flex items-center">
                                 <img className="w-16" src="../../../public/icons/pediatric_surgery.png" alt="" />
                                 <h2 className="text-[#E9F7F8] text-xl font-medium ms-4">Pediatry</h2>
                             </div>
                             <div className="mt-6">
-                                <p className="text-[#cae8ec]">Pediatrics (also spelled paediatrics or pædiatrics) is the branch of medicine that involves the medical care of infants, children, adolescents, and young adults. In the United Kingdom, paediatrics covers many of their youth until the age of 18.[1] The American Academy of Pediatrics recommends people seek pediatric care............</p>
+                                <p className="text-[#cae8ec]">Pediatrics (also spelled paediatrics or pædiatrics) is the branch of medicine that involves the medical care of infants, children, adolescents, and young adults. In the United Kingdom, paediatrics covers many of...........</p>
                             </div>
                             <div className="mt-4">
                                 <button className="text-[#E9F7F8] text-sm pb-10">READ MORE</button>
@@ -203,13 +203,13 @@ const Home = () => {
                         </div>
                     </div>
                     <div>
-                        <div className="border border-[#E9F7F8] rounded-sm p-5">
+                        <div className="border border-[#E9F7F8] rounded-sm p-5 h-96">
                             <div className="flex items-center">
                                 <img className="w-16" src="../../../public/icons/orthopaedics.png" alt="" />
                                 <h2 className="text-[#E9F7F8] text-xl font-medium ms-4">Orthopaedics</h2>
                             </div>
                             <div className="mt-6">
-                                <p className="text-[#cae8ec]">Orthopedic surgery or orthopedics is the branch of surgery concerned with conditions involving the musculoskeletal system. Orthopedic surgeons use both surgical and nonsurgical means to treat musculoskeletal trauma, spine diseases, sports injuries, degenerative diseases, infections, tumors, and...........</p>
+                                <p className="text-[#cae8ec]">Orthopedic surgery or orthopedics is the branch of surgery concerned with conditions involving the musculoskeletal system. Orthopedic surgeons use both surgical and nonsurgical means to treat muscu..........</p>
                             </div>
                             <div className="mt-4">
                                 <button className="text-[#E9F7F8] text-sm pb-10">READ MORE</button>
@@ -284,6 +284,52 @@ const Home = () => {
             </div>
 
             {/* Top Specialist */}
+
+            {/* The Benefits of utilizing Medicare */}
+
+            <div className="mt-24 bg-[#E9F7F8] pt-16 pb-6 px-4 lg:px-0">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
+                    <div className="relative">
+                        <img src="../../../public/images/Rectangle 40.jpg" alt="" />
+                        <img className="absolute right-14 lg:bottom-14" src="../../../public/images/Rectangle 41.jpg" alt="" />
+                    </div>
+                    <div className="mt-72 lg:mt-10">
+                        <div>
+                            <h1 className="text-4xl font-normal">The Benefits of utilizing Medicare</h1>
+                        </div>
+                        <div className="flex items-center mt-28">
+                            <div>
+                                <img className="bg-[#FFF] rounded-full p-2 lg:p-5" src="../../../public/icons/rural_post.png" alt="" />
+                            </div>
+                            <div className="ms-6">
+                                <h4 className="text-xl font-medium">Modern Clinic</h4>
+                                <p className="text-sm">Modern Clinic Design: Strategies for an Era of Change is a comprehensive <br /> guide to optimizing patient experience through the design of the built environment.</p>
+                            </div>
+                        </div>
+                        <div className="flex items-center mt-20">
+                            <div>
+                                <img className="bg-[#FFF] rounded-full p-2 lg:p-5" src="../../../public/icons/bills.png" alt="" />
+                            </div>
+                            <div className="ms-6">
+                                <h4 className="text-xl font-medium">Less Consultation Fees</h4>
+                                <p className="text-sm">WE are used to believe that doctors are not greedy traders. Those who have an ambition <br /> to earn huge money should not come to the medical profession. </p>
+                            </div>
+                        </div>
+                        <div className="flex items-center mt-20">
+                            <div>
+                                <img className="bg-[#FFF] rounded-full p-2 lg:p-5" src="../../../public/icons/doctor.png" alt="" />
+                            </div>
+                            <div className="ms-6">
+                                <h4 className="text-xl font-medium">Professional Treatment</h4>
+                                <p className="text-sm">Professional medical treatment means being seen for evaluation or treatment by a health <br /> care professional such a physician, physician assistant, dentist, nurse, etc.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* The Benefits of utilizing Medicare */}
+
 
 
         </div>
