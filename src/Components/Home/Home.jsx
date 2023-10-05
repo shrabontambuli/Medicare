@@ -1,5 +1,6 @@
 
 
+
 const Home = () => {
     return (
         <div className="mt-20">
@@ -114,7 +115,7 @@ const Home = () => {
                             <p className="text-[#cae8ec]">Neurology is the branch of medicine concerned with the study and treatment of disorders of the nervous system. The nervous system is a complex, sophisticated system that regulates and coordinates body activities. It has two major divisions: Central nervous system: the brain and spinal cord..........</p>
                         </div>
                         <div className="mt-4">
-                            <button className="text-[#E9F7F8] text-sm pb-20">READ MORE</button>
+                            <button className="text-[#E9F7F8] text-sm pb-10">READ MORE</button>
                         </div>
                     </div>
                     <div>
@@ -127,7 +128,7 @@ const Home = () => {
                                 <p className="text-[#cae8ec]">Cardiology is the study of the heart. Cardiology is a branch of medicine that deals with disorders of the heart and the cardiovascular system. The field includes medical diagnosis and treatment of congenital heart defects, coronary artery disease, heart failure, valvular heart disease, and electrophysiology. ...........</p>
                             </div>
                             <div className="mt-4">
-                                <button className="text-[#E9F7F8] text-sm pb-20">READ MORE</button>
+                                <button className="text-[#E9F7F8] text-sm pb-10">READ MORE</button>
                             </div>
                         </div>
                     </div>
@@ -141,7 +142,7 @@ const Home = () => {
                                 <p className="text-[#cae8ec]">Surgery is a medical specialty that uses manual and/or instrumental techniques to physically reach into a subjects body in order to investigate or treat pathological conditions such as a disease or injury, to alter bodily functions, to improve appearance, or to remove/replace unwanted tissues or foreign bodies...........</p>
                             </div>
                             <div className="mt-4">
-                                <button className="text-[#E9F7F8] text-sm pb-20">READ MORE</button>
+                                <button className="text-[#E9F7F8] text-sm pb-10">READ MORE</button>
                             </div>
                         </div>
                     </div>
@@ -155,7 +156,7 @@ const Home = () => {
                                 <p className="text-[#cae8ec]">Neurology is the branch of medicine concerned with the study and treatment of disorders of the nervous system. The nervous system is a complex, sophisticated system that regulates and coordinates body activities. It has two major divisions: Central nervous system: the brain and spinal cord..........</p>
                             </div>
                             <div className="mt-4">
-                                <button className="text-[#E9F7F8] text-sm pb-20">READ MORE</button>
+                                <button className="text-[#E9F7F8] text-sm pb-10">READ MORE</button>
                             </div>
                         </div>
                     </div>
@@ -169,7 +170,7 @@ const Home = () => {
                                 <p className="text-[#cae8ec]">A dentist is a doctor, so they complete a path of study that similar to that of a medical doctor. The first step is to complete an undergraduate program in a related field like biology, chemistry, health, or math, and earn a bachelor of science degree. Next is a dental admissions test, which you need to take to apply ...........</p>
                             </div>
                             <div className="mt-4">
-                                <button className="text-[#E9F7F8] text-sm pb-20">READ MORE</button>
+                                <button className="text-[#E9F7F8] text-sm pb-10">READ MORE</button>
                             </div>
                         </div>
                     </div>
@@ -183,7 +184,7 @@ const Home = () => {
                                 <p className="text-[#cae8ec]">Ophthalmology, medical specialty dealing with the diagnosis and treatment of diseases and disorders of the eye. The first ophthalmologists were oculists. These paramedical specialists practiced on an itinerant basis during the Middle Ages. A German physician who wrote on eye diseases in the 16th century, is...........</p>
                             </div>
                             <div className="mt-4">
-                                <button className="text-[#E9F7F8] text-sm pb-20">READ MORE</button>
+                                <button className="text-[#E9F7F8] text-sm pb-10">READ MORE</button>
                             </div>
                         </div>
                     </div>
@@ -197,7 +198,7 @@ const Home = () => {
                                 <p className="text-[#cae8ec]">Pediatrics (also spelled paediatrics or pædiatrics) is the branch of medicine that involves the medical care of infants, children, adolescents, and young adults. In the United Kingdom, paediatrics covers many of their youth until the age of 18.[1] The American Academy of Pediatrics recommends people seek pediatric care............</p>
                             </div>
                             <div className="mt-4">
-                                <button className="text-[#E9F7F8] text-sm pb-20">READ MORE</button>
+                                <button className="text-[#E9F7F8] text-sm pb-10">READ MORE</button>
                             </div>
                         </div>
                     </div>
@@ -211,7 +212,7 @@ const Home = () => {
                                 <p className="text-[#cae8ec]">Orthopedic surgery or orthopedics is the branch of surgery concerned with conditions involving the musculoskeletal system. Orthopedic surgeons use both surgical and nonsurgical means to treat musculoskeletal trauma, spine diseases, sports injuries, degenerative diseases, infections, tumors, and...........</p>
                             </div>
                             <div className="mt-4">
-                                <button className="text-[#E9F7F8] text-sm pb-20">READ MORE</button>
+                                <button className="text-[#E9F7F8] text-sm pb-10">READ MORE</button>
                             </div>
                         </div>
                     </div>
@@ -220,16 +221,69 @@ const Home = () => {
 
             {/* Our Department */}
 
+            {/* Top Specialist */}
 
+            <div className="mt-20 px-5 lg:px-16">
+                <div>
+                    <h1 className="text-3xl font-medium">Top Specialist</h1>
+                </div>
+                <div className="mt-16 grid grid-cols-1 lg:grid-cols-4 justify-items-center items-center gap-5">
+                    <div className="card w-80 bg-base-100 shadow-xl border border-[#1CB5BD]">
+                        <figure className="px-2 pt-2">
+                            <img src="/../../public/images/Rectangle 33.jpg" alt="Shoes" className="rounded-xl" />
+                        </figure>
+                        <div className="card-body items-center text-center">
+                            <h2 className="card-title">Dr. Travis Oman</h2>
+                            <p className="text-[#787878]">Opthalmologist</p>
+                            <div className="card-actions">
+                                <button className="btn bg-[#1CB5BD]">Book Now</button>
+                            </div>
+                            <p className="text-[#787878] mt-4">120 Reviews</p>
+                        </div>
+                    </div>
+                    <div className="card w-80 bg-base-100 shadow-xl border border-[#1CB5BD]">
+                        <figure className="px-2 pt-2">
+                            <img src="../../../public/images/Rectangle 34.jpg" alt="Shoes" className="rounded-xl" />
+                        </figure>
+                        <div className="card-body items-center text-center">
+                            <h2 className="card-title">Dr. Annah Ray</h2>
+                            <p className="text-[#787878]">Dentician</p>
+                            <div className="card-actions">
+                                <button className="btn bg-[#1CB5BD]">Book Now</button>
+                            </div>
+                            <p className="text-[#787878] mt-4">120 Reviews</p>
+                        </div>
+                    </div>
+                    <div className="card w-80 bg-base-100 shadow-xl border border-[#1CB5BD]">
+                        <figure className="px-2 pt-2">
+                            <img src="/../../public/images/Rectangle 35.jpg" alt="Shoes" className="rounded-xl" />
+                        </figure>
+                        <div className="card-body items-center text-center">
+                            <h2 className="card-title">Dr. Richard Brook</h2>
+                            <p className="text-[#787878]">Gastroenterlogist</p>
+                            <div className="card-actions">
+                                <button className="btn bg-[#1CB5BD]">Book Now</button>
+                            </div>
+                            <p className="text-[#787878] mt-4">120 Reviews</p>
+                        </div>
+                    </div>
+                    <div className="card w-80 bg-base-100 shadow-xl border border-[#1CB5BD]">
+                        <figure className="px-2 pt-2">
+                            <img src="/../../public/images/Rectangle 36.jpg" alt="Shoes" className="rounded-xl" />
+                        </figure>
+                        <div className="card-body items-center text-center">
+                            <h2 className="card-title">Dr. Vivian Monroe</h2>
+                            <p className="text-[#787878]">Pediatry Surgeon</p>
+                            <div className="card-actions">
+                                <button className="btn bg-[#1CB5BD]">Book Now</button>
+                            </div>
+                            <p className="text-[#787878] mt-4">120 Reviews</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-
-
-
-
-
-
-
-
+            {/* Top Specialist */}
 
 
         </div>
