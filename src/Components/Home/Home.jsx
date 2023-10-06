@@ -9,7 +9,7 @@ const Home = () => {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 items-center px-5 lg:px-0">
                 <div>
                     <h1 className="text-5xl font-medium">Your Health Comes First.</h1>
-                    <img className="mt-4" src="../../../public/icons/output-onlinepngtools (1) 2.png"
+                    <img className="mt-4" src="/public/icons/output-onlinepngtools (1) 2.png"
                         alt="" />
                     <p className="mt-2">With Medicare services you will receive the best medical treatment in your home. Our team of skilled medical professionals and aids ensure that you get the care you need and deserve.</p>
                     <button className="bg-[#1CB5BD] text-white px-10 py-3 mt-6 rounded-md">
@@ -17,18 +17,18 @@ const Home = () => {
                     </button>
                 </div>
                 <div>
-                    <img className="w-96" src="../../../public/icons/image 22.png" alt="" />
+                    <img className="w-96" src="/public/icons/image 22.png" alt="" />
                 </div>
                 <div>
                     <div className="flex justify-center items-center">
-                        <img src="../../../public/icons/Group.png" alt="" />
+                        <img src="/public/icons/Group.png" alt="" />
                         <div className="flex items-center -ms-44">
-                            <img src="../../../public/icons/Frame 6.png" alt="" />
+                            <img src="/public/icons/Frame 6.png" alt="" />
                             <p className="text-[#1CB5BD] font-semibold ms-2">TAKE A TOUR</p>
-                            <img className="w-3 ms-4" src="../../../public/icons/Ellipse 1.png" alt="" />
+                            <img className="w-3 ms-4" src="/public/icons/Ellipse 1.png" alt="" />
                         </div>
                     </div>
-                    <img className="lg:py-20" src="../../../public/icons/output-onlinepngtools 2.png" alt="" />
+                    <img className="lg:py-20" src="/public/icons/output-onlinepngtools 2.png" alt="" />
                     <p className="text-xl lg:ms-16"><span className="text-[#1CB5BD] text-3xl">“</span> A trusted assistance companion for your <br /> health needs. <span className="text-[#1CB5BD] text-3xl">”</span></p>
                 </div>
             </div>
@@ -36,7 +36,7 @@ const Home = () => {
             <div className="bg-[#1CB5BD] grid grid-cols-1 lg:grid-cols-3 gap-4 items-center justify-items-center py-16 px-10 rounded-lg mt-10 lg:mt-0" >
                 <div className="flex items-center justify-between">
                     <div className="bg-[#E9F7F8] w-[75px] h-[120px] rounded-lg">
-                        <img className="mx-auto pt-12" src="../../../public/icons/bx_time.png" alt="" />
+                        <img className="mx-auto pt-12" src="/public/icons/bx_time.png" alt="" />
                     </div>
                     <div className="ms-5">
                         <h2 className="text-[#FFF] text-xl">24 hours services</h2>
@@ -46,7 +46,7 @@ const Home = () => {
                 <div className="flex items-center justify-between ">
                     <div>
                         <div className="bg-[#E9F7F8] w-[75px] h-[120px] rounded-lg">
-                            <img className="mx-auto pt-12" src="../../../public/icons/bi_clipboard2-plus.png" alt="" />
+                            <img className="mx-auto pt-12" src="/public/icons/bi_clipboard2-plus.png" alt="" />
                         </div>
                     </div>
                     <div className="ms-5">
@@ -57,7 +57,7 @@ const Home = () => {
                 <div className="flex items-center justify-between ">
                     <div>
                         <div className="bg-[#E9F7F8] w-[75px] h-[120px] rounded-lg">
-                            <img className="mx-auto pt-12" src="../../../public/icons/iconoir_healthcare.png" alt="" />
+                            <img className="mx-auto pt-12" src="/public/icons/iconoir_healthcare.png" alt="" />
                         </div>
                     </div>
                     <div className="ms-5">
@@ -78,19 +78,19 @@ const Home = () => {
                 </div>
                 <div className="mt-20 grid grid-cols-1 lg:grid-cols-4 gap-4 items-center justify-items-center">
                     <div className="bg-[#FEEFEB] p-16 w-80 h-72">
-                        <img className="mx-auto w-24" src="../../../public/icons/4298373 2.png" alt="" />
+                        <img className="mx-auto w-24" src="/public/icons/4298373 2.png" alt="" />
                         <h3 className="mt-3 font-semibold text-xl text-center">Customer Support</h3>
                     </div>
                     <div className="bg-[#FAF2E9] p-16 w-80 h-72">
-                        <img className="mx-auto w-24" src="../../../public/icons/image 23.png" alt="" />
+                        <img className="mx-auto w-24" src="/public/icons/image 23.png" alt="" />
                         <h3 className="mt-3 font-semibold text-xl text-center">Chamber Services</h3>
                     </div>
                     <div className="bg-[#F1F5E9] p-16 w-80 h-72">
-                        <img className="mx-auto w-24" src="../../../public/icons/image 24.png" alt="" />
+                        <img className="mx-auto w-24" src="/public/icons/image 24.png" alt="" />
                         <h3 className="mt-3 font-semibold text-xl text-center">Online Specialist</h3>
                     </div>
                     <div className="bg-[#E9F7F8] p-16 w-80 h-72">
-                        <img className="mx-auto w-24" src="../../../public/icons/4298373 1.png" alt="" />
+                        <img className="mx-auto w-24" src="/public/icons/4298373 1.png" alt="" />
                         <h3 className="mt-3 font-semibold text-xl text-center">Privacy and Security</h3>
                     </div>
                 </div>
@@ -107,7 +107,7 @@ const Home = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 mt-16">
                     <div className="border border-[#E9F7F8] rounded-sm p-5 h-96">
                         <div className="flex items-center">
-                            <img className="w-16" src="../../../public/icons/neurology.png" alt="" />
+                            <img className="w-16" src="/public/icons/neurology.png" alt="" />
                             <h2 className="text-[#E9F7F8] text-xl font-medium ms-4">Neurology</h2>
                         </div>
                         <div className="mt-6">
@@ -120,7 +120,7 @@ const Home = () => {
                     <div>
                         <div className="border border-[#E9F7F8] rounded-sm p-5 h-96">
                             <div className="flex items-center">
-                                <img className="w-16" src="../../../public/icons/blood_pressure.png" alt="" />
+                                <img className="w-16" src="/public/icons/blood_pressure.png" alt="" />
                                 <h2 className="text-[#E9F7F8] text-xl font-medium ms-4">Cardiology</h2>
                             </div>
                             <div className="mt-6">
@@ -134,7 +134,7 @@ const Home = () => {
                     <div>
                         <div className="border border-[#E9F7F8] rounded-sm p-5 h-96">
                             <div className="flex items-center">
-                                <img className="w-16" src="../../../public/icons/surgical_sterilization.png" alt="" />
+                                <img className="w-16" src="/public/icons/surgical_sterilization.png" alt="" />
                                 <h2 className="text-[#E9F7F8] text-xl font-medium ms-4">Surgery</h2>
                             </div>
                             <div className="mt-6">
@@ -148,7 +148,7 @@ const Home = () => {
                     <div>
                         <div className="border border-[#E9F7F8] rounded-sm p-5 h-96">
                             <div className="flex items-center">
-                                <img className="w-16" src="../../../public/icons/gastroenterology.png" alt="" />
+                                <img className="w-16" src="/public/icons/gastroenterology.png" alt="" />
                                 <h2 className="text-[#E9F7F8] text-xl font-medium ms-4">Neurology</h2>
                             </div>
                             <div className="mt-6">
@@ -162,7 +162,7 @@ const Home = () => {
                     <div>
                         <div className="border border-[#E9F7F8] rounded-sm p-5 h-96">
                             <div className="flex items-center">
-                                <img className="w-16" src="../../../public/icons/tooth.png" alt="" />
+                                <img className="w-16" src="/public/icons/tooth.png" alt="" />
                                 <h2 className="text-[#E9F7F8] text-xl font-medium ms-4">Dentist</h2>
                             </div>
                             <div className="mt-6">
@@ -176,7 +176,7 @@ const Home = () => {
                     <div>
                         <div className="border border-[#E9F7F8] rounded-sm p-5 h-96">
                             <div className="flex items-center">
-                                <img className="w-16" src="../../../public/icons/opthalmology.png" alt="" />
+                                <img className="w-16" src="/public/icons/opthalmology.png" alt="" />
                                 <h2 className="text-[#E9F7F8] text-xl font-medium ms-4">Opthalmology</h2>
                             </div>
                             <div className="mt-6">
@@ -190,7 +190,7 @@ const Home = () => {
                     <div>
                         <div className="border border-[#E9F7F8] rounded-sm p-5 h-96">
                             <div className="flex items-center">
-                                <img className="w-16" src="../../../public/icons/pediatric_surgery.png" alt="" />
+                                <img className="w-16" src="/public/icons/pediatric_surgery.png" alt="" />
                                 <h2 className="text-[#E9F7F8] text-xl font-medium ms-4">Pediatry</h2>
                             </div>
                             <div className="mt-6">
@@ -204,7 +204,7 @@ const Home = () => {
                     <div>
                         <div className="border border-[#E9F7F8] rounded-sm p-5 h-96">
                             <div className="flex items-center">
-                                <img className="w-16" src="../../../public/icons/orthopaedics.png" alt="" />
+                                <img className="w-16" src="/public/icons/orthopaedics.png" alt="" />
                                 <h2 className="text-[#E9F7F8] text-xl font-medium ms-4">Orthopaedics</h2>
                             </div>
                             <div className="mt-6">
@@ -242,7 +242,7 @@ const Home = () => {
                     </div>
                     <div className="card w-80 bg-base-100 shadow-xl border border-[#1CB5BD]">
                         <figure className="px-2 pt-2">
-                            <img src="../../../public/images/Rectangle 34.jpg" alt="Shoes" className="rounded-xl" />
+                            <img src="/public/images/Rectangle 34.jpg" alt="Shoes" className="rounded-xl" />
                         </figure>
                         <div className="card-body items-center text-center">
                             <h2 className="card-title">Dr. Annah Ray</h2>
@@ -289,8 +289,8 @@ const Home = () => {
             <div className="mt-24 bg-[#E9F7F8] pt-16 pb-6 px-4 lg:px-0">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
                     <div className="relative">
-                        <img src="../../../public/images/Rectangle 40.jpg" alt="" />
-                        <img className="absolute right-14 lg:bottom-14" src="../../../public/images/Rectangle 41.jpg" alt="" />
+                        <img src="/public/images/Rectangle 40.jpg" alt="" />
+                        <img className="absolute right-14 lg:bottom-14" src="/public/images/Rectangle 41.jpg" alt="" />
                     </div>
                     <div className="mt-72 lg:mt-10">
                         <div>
@@ -298,7 +298,7 @@ const Home = () => {
                         </div>
                         <div className="flex items-center mt-28">
                             <div>
-                                <img className="bg-[#FFF] rounded-full p-2 lg:p-5" src="../../../public/icons/rural_post.png" alt="" />
+                                <img className="bg-[#FFF] rounded-full p-2 lg:p-5" src="/public/icons/rural_post.png" alt="" />
                             </div>
                             <div className="ms-6">
                                 <h4 className="text-xl font-medium">Modern Clinic</h4>
@@ -307,7 +307,7 @@ const Home = () => {
                         </div>
                         <div className="flex items-center mt-20">
                             <div>
-                                <img className="bg-[#FFF] rounded-full p-2 lg:p-5" src="../../../public/icons/bills.png" alt="" />
+                                <img className="bg-[#FFF] rounded-full p-2 lg:p-5" src="/public/icons/bills.png" alt="" />
                             </div>
                             <div className="ms-6">
                                 <h4 className="text-xl font-medium">Less Consultation Fees</h4>
@@ -316,7 +316,7 @@ const Home = () => {
                         </div>
                         <div className="flex items-center mt-20">
                             <div>
-                                <img className="bg-[#FFF] rounded-full p-2 lg:p-5" src="../../../public/icons/doctor.png" alt="" />
+                                <img className="bg-[#FFF] rounded-full p-2 lg:p-5" src="/public/icons/doctor.png" alt="" />
                             </div>
                             <div className="ms-6">
                                 <h4 className="text-xl font-medium">Professional Treatment</h4>
@@ -352,7 +352,7 @@ const Home = () => {
                                 <p>Engineer</p>
                             </div>
                             <div>
-                                <img className='w-32 absolute -right-6 -top-10' src="../../../public/images/Rectangle 60.png" alt="" />
+                                <img className='w-32 absolute -right-6 -top-10' src="/public/images/Rectangle 60.png" alt="" />
                             </div>
                         </div>
                     </div>
@@ -371,7 +371,7 @@ const Home = () => {
                                 <p>Engineer</p>
                             </div>
                             <div>
-                                <img className='w-32 absolute -right-6 -top-10' src="../../../public/images/Rectangle 59.png" alt="" />
+                                <img className='w-32 absolute -right-6 -top-10' src="/public/images/Rectangle 59.png" alt="" />
                             </div>
                         </div>
                     </div>
@@ -390,7 +390,7 @@ const Home = () => {
                                 <p>Engineer</p>
                             </div>
                             <div>
-                                <img className='w-32 absolute -right-6 -top-10' src="../../../public/images/Rectangle 58.png" alt="" />
+                                <img className='w-32 absolute -right-6 -top-10' src="/public/images/Rectangle 58.png" alt="" />
                             </div>
                         </div>
                     </div>
@@ -409,7 +409,7 @@ const Home = () => {
                                 <p>Engineer</p>
                             </div>
                             <div>
-                                <img className='w-32 absolute -right-6 -top-10' src="../../../public/images/Rectangle 58 (1).png" alt="" />
+                                <img className='w-32 absolute -right-6 -top-10' src="/public/images/Rectangle 58 (1).png" alt="" />
                             </div>
                         </div>
                     </div>
@@ -438,12 +438,12 @@ const Home = () => {
                     </div>
                     <div className="flex items-center lg:ms-80">
                         <p className="text-[#1CB5BD] font-medium me-2">See More</p>
-                        <img src="../../../public/icons/akar-icons_arrow-down.png" alt="" />
+                        <img src="/public/icons/akar-icons_arrow-down.png" alt="" />
                     </div>
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-2 justify-items-center items-center gap-5 mt-20">
                     <div>
-                        <img className="w-9/12" src="../../../public/images/Rectangle 53.jpg" alt="" />
+                        <img className="w-9/12" src="/public/images/Rectangle 53.jpg" alt="" />
                         <p className="mt-6 text-[#1CB5BD] font-medium">APRIL 26, 2022</p>
                         <h4 className="mt-6 text-xl font-semibold">Updated Covid boosters rolled out a month ago. Here is how <br /> many Americans have gotten them.</h4>
                         <p className="mt-4 text-[#5E5E5E]">The CDC recommends that everyone over 12 get an updated booster as <br /> long as at least two months have passed since their last Covid shot.</p>
@@ -453,7 +453,7 @@ const Home = () => {
                         <h1 className="text-3xl font-medium">Whats Trending?</h1>
                         <div className="flex mt-14">
                             <div>
-                                <img className="w-80" src="../../../public/images/Rectangle 53 (1).jpg" alt="" />
+                                <img className="w-80" src="/public/images/Rectangle 53 (1).jpg" alt="" />
                             </div>
                             <div className="ms-6">
                                 <h3 className="text-xl text-[#1CB5BD] font-medium">Pumping Iron Improves Longevity in Older Adults</h3>
@@ -462,7 +462,7 @@ const Home = () => {
                         </div>
                         <div className="flex mt-10">
                             <div>
-                                <img className="w-80" src="../../../public/images/jumb-2.jpg" alt="" />
+                                <img className="w-80" src="/public/images/jumb-2.jpg" alt="" />
                             </div>
                             <div className="ms-6">
                                 <h3 className="text-xl text-[#1CB5BD] font-medium">Monkeypox Case Rates 5 Times Higher Among Black Americans</h3>
@@ -471,7 +471,7 @@ const Home = () => {
                         </div>
                         <div className="flex mt-10">
                             <div>
-                                <img className="w-80" src="../../../public/images/Rectangle 53 (2).jpg" alt="" />
+                                <img className="w-80" src="/public/images/Rectangle 53 (2).jpg" alt="" />
                             </div>
                             <div className="ms-6">
                                 <h3 className="text-xl text-[#1CB5BD] font-medium">The Happy Hormone: Why We Should not Mess With Dopamine</h3>
@@ -481,7 +481,20 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-
+            <div className="mt-40 grid grid-cols-1 lg:grid-cols-4 gap-5 justify-items-center items-center">
+                <div>
+                    <img src="/public/icons/image 30.png" alt="" />
+                </div>
+                <div>
+                    <img src="/public/icons/image 27.png" alt="" />
+                </div>
+                <div>
+                    <img src="/public/icons/image 29.png" alt="" />
+                </div>
+                <div>
+                    <img src="/public/icons/image 28.png" alt="" />
+                </div>
+            </div>
             {/* What you need to know about healthy living */}
 
         </div>
