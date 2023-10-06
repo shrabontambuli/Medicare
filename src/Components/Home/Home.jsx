@@ -1,6 +1,5 @@
 
 
-
 const Home = () => {
     return (
         <div className="mt-20">
@@ -330,7 +329,105 @@ const Home = () => {
 
             {/* The Benefits of utilizing Medicare */}
 
+            {/* Testimonials */}
 
+            <div className="mt-20 px-5 lg:px-16">
+                <div>
+                    <h1 className="text-4xl font-medium">Testimonials</h1>
+                    <p className="text-[#787878] mt-4"> Our team of skilled medical professionals and aids ensure that <br /> you get the care you need and deserve.</p>
+                </div>
+                <div className="grid grid-cols-1 lg:grid-cols-4 justify-items-center items-center gap-6 mt-16">
+                    <div className="bg-[#E9F7F8] p-9 w-80 h-72 bor">
+                        <p className='mt-2'> Augue nulla montes, eget congue dolor magna vitae porttitor. Mollis aliquam tristique porttitor blandit nibh dui tristique quam.......</p>
+                        <div className="rating mt-5">
+                            <input type="radio" name="rating-1" className="mask mask-star bg-[#1CB5BD]" />
+                            <input type="radio" name="rating-1" className="mask mask-star bg-[#1CB5BD]" checked />
+                            <input type="radio" name="rating-1" className="mask mask-star bg-[#1CB5BD]" />
+                            <input type="radio" name="rating-1" className="mask mask-star bg-[#1CB5BD]" />
+                            <input type="radio" name="rating-1" className="mask mask-star bg-[#1CB5BD]" checked />
+                        </div>
+                        <div className='relative ms-10'>
+                            <div>
+                                <h4 className='text-lg font-medium mt-4'>John Doe</h4>
+                                <p>Engineer</p>
+                            </div>
+                            <div>
+                                <img className='w-32 absolute -right-6 -top-10' src="../../../public/images/Rectangle 60.png" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="bg-[#E9F7F8] p-9 w-80 h-72 bor">
+                        <p className='mt-2'> Augue nulla montes, eget congue dolor magna vitae porttitor. Mollis aliquam tristique porttitor blandit nibh dui tristique quam.......</p>
+                        <div className="rating mt-5">
+                            <input type="radio" name="rating-1" className="mask mask-star bg-[#1CB5BD]" />
+                            <input type="radio" name="rating-1" className="mask mask-star bg-[#1CB5BD]" checked />
+                            <input type="radio" name="rating-1" className="mask mask-star bg-[#1CB5BD]" />
+                            <input type="radio" name="rating-1" className="mask mask-star bg-[#1CB5BD]" />
+                            <input type="radio" name="rating-1" className="mask mask-star bg-[#1CB5BD]" checked />
+                        </div>
+                        <div className='relative ms-10'>
+                            <div>
+                                <h4 className='text-lg font-medium mt-4'>John Doe</h4>
+                                <p>Engineer</p>
+                            </div>
+                            <div>
+                                <img className='w-32 absolute -right-6 -top-10' src="../../../public/images/Rectangle 59.png" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="bg-[#E9F7F8] p-9 w-80 h-72 bor">
+                        <p className='mt-2'> Augue nulla montes, eget congue dolor magna vitae porttitor. Mollis aliquam tristique porttitor blandit nibh dui tristique quam.......</p>
+                        <div className="rating mt-5">
+                            <input type="radio" name="rating-1" className="mask mask-star bg-[#1CB5BD]" />
+                            <input type="radio" name="rating-1" className="mask mask-star bg-[#1CB5BD]" checked />
+                            <input type="radio" name="rating-1" className="mask mask-star bg-[#1CB5BD]" />
+                            <input type="radio" name="rating-1" className="mask mask-star bg-[#1CB5BD]" />
+                            <input type="radio" name="rating-1" className="mask mask-star bg-[#1CB5BD]" checked />
+                        </div>
+                        <div className='relative ms-10'>
+                            <div>
+                                <h4 className='text-lg font-medium mt-4'>John Doe</h4>
+                                <p>Engineer</p>
+                            </div>
+                            <div>
+                                <img className='w-32 absolute -right-6 -top-10' src="../../../public/images/Rectangle 58.png" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="bg-[#E9F7F8] p-9 w-80 h-72 bor">
+                        <p className='mt-2'> Augue nulla montes, eget congue dolor magna vitae porttitor. Mollis aliquam tristique porttitor blandit nibh dui tristique quam.......</p>
+                        <div className="rating mt-5">
+                            <input type="radio" name="rating-1" className="mask mask-star bg-[#1CB5BD]" />
+                            <input type="radio" name="rating-1" className="mask mask-star bg-[#1CB5BD]" checked />
+                            <input type="radio" name="rating-1" className="mask mask-star bg-[#1CB5BD]" />
+                            <input type="radio" name="rating-1" className="mask mask-star bg-[#1CB5BD]" />
+                            <input type="radio" name="rating-1" className="mask mask-star bg-[#1CB5BD]" checked />
+                        </div>
+                        <div className='relative ms-10'>
+                            <div>
+                                <h4 className='text-lg font-medium mt-4'>John Doe</h4>
+                                <p>Engineer</p>
+                            </div>
+                            <div>
+                                <img className='w-32 absolute -right-6 -top-10' src="../../../public/images/Rectangle 58 (1).png" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="mt-32 bg1 w-10/12 mx-auto rounded-3xl">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 justify-items-center items-center gap-4 py-10">
+                        <div className="px-6 lg:px-0">
+                            <h3 className="text-[#FFF] font-medium text-3xl">Ready to get started ?</h3>
+                            <p className="text-[#FFF] mt-2">Pellentesque ac bibendum tortor. Nulla eget lobortis lacus.</p>
+                        </div>
+                        <div>
+                            <p className="bg-[#FFF] text-[#1CB5BD] font-medium py-4 px-10 bor2">Create Appointment Now!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* Testimonials */}
 
         </div>
     );

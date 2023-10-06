@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bor {
+    border-radius: 0px 150px 150px 150px;
+}
+.bor2 {
+    border-radius: 34.5px;
+}
+.bg1{
+    background: linear-gradient(118deg, #1CB5BD 6.86%, #E9F7F8 103.41%);
+
+}
