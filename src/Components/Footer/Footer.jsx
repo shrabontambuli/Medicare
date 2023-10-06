@@ -3,12 +3,12 @@
 const Footer = () => {
     return (
         <div className="bg-[#E9F7F8] mt-12 py-28 relative">
-            <img className="absolute w-2/6 lg:-top-36 " src="/public/icons/Oval.png" alt="" />
-            <img className="absolute w-2/5 lg:-top-60 left-0" src="/public/icons/Oval2.png" alt="" />
+            <img className="absolute w-2/6 lg:-top-36 " src="/icons/Oval.png" alt="" />
+            <img className="absolute w-2/5 lg:-top-60 left-0" src="/icons/Oval2.png" alt="" />
             <div className="grid grid-cols-1 lg:grid-cols-5 gap-4 justify-items-center items-center px-5 lg:px-14">
                 <div className="text-[#5E5E5E]">
                     <div className="flex items-center">
-                        <img className="lg:w-16 w-10" src="/public/icons/image 21.png" alt="" />
+                        <img className="lg:w-16 w-10" src="/icons/image 21.png" alt="" />
                         <div>
                             <h2 className="lg:text-3xl text-2xl font-semibold">Medi<span className="text-[#1CB5BD]">care</span></h2>
                         </div>
@@ -38,15 +38,15 @@ const Footer = () => {
                 </div>
                 <div>
                     <div className="flex">
-                        <img className="me-2" src="/public/icons/Group 9.png" alt="" />
-                        <img className="me-2" src="/public/icons/Group 9 Copy.png" alt="" />
-                        <img className="me-2" src="/public/icons/Group 9 Copy 2.png" alt="" />
-                        <img className="ms-2" src="/public/icons/Group 9 Copy 3.png" alt="" />
+                        <img className="me-2" src="/icons/Group 9.png" alt="" />
+                        <img className="me-2" src="/icons/Group 9 Copy.png" alt="" />
+                        <img className="me-2" src="/icons/Group 9 Copy 2.png" alt="" />
+                        <img className="ms-2" src="/icons/Group 9 Copy 3.png" alt="" />
                     </div>
                     <div className="border border-[#03ACF2] flex justify-center items-center mt-8 py-2">
-                        <img className="me-2" src="/public/icons/android-globe.png" alt="" />
+                        <img className="me-2" src="/icons/android-globe.png" alt="" />
                         <p className="font-medium">English - En</p>
-                        <img className="ms-4 w-4 h-2" src="/public/icons/chevron-down.png" alt="" />
+                        <img className="ms-4 w-4 h-2" src="/icons/chevron-down.png" alt="" />
                     </div>
                 </div>
             </div>

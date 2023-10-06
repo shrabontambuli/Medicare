@@ -9,7 +9,7 @@ const Header = () => {
             <nav className='grid grid-cols-1 lg:grid-cols-3 items-center gap-4 lg:mt-5 mt-3'>
                 <NavLink to='/'>
                     <div className="flex items-center">
-                        <img className="lg:w-16 w-10" src="/public/icons/image 21.png" alt="" />
+                        <img className="lg:w-16 w-10" src="/icons/image 21.png" alt="" />
                         <div>
                             <h2 className="lg:text-3xl text-2xl font-semibold">Medi<span className="text-[#1CB5BD]">care</span></h2>
                         </div>
@@ -36,7 +36,7 @@ const Header = () => {
                 </div>
                 <div className="flex items-center justify-center lg:justify-end">
                     <div>
-                        <img className="w-9" src="/public/icons/fluent_call-32-regular.png" alt="" />
+                        <img className="w-9" src="/icons/fluent_call-32-regular.png" alt="" />
                     </div>
                     <div>
                         <p className="font-semibold">+233554205473</p>
