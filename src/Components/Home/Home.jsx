@@ -429,6 +429,61 @@ const Home = () => {
 
             {/* Testimonials */}
 
+            {/* What you need to know about healthy living */}
+
+            <div className="mt-28 px-5 lg:px-16">
+                <div className="grid grid-cols-2 justify-items-center">
+                    <div>
+                        <h2 className="text-xl lg:text-3xl lg:-ms-32">What you need to know about healthy <br /> living</h2>
+                    </div>
+                    <div className="flex items-center lg:ms-80">
+                        <p className="text-[#1CB5BD] font-medium me-2">See More</p>
+                        <img src="../../../public/icons/akar-icons_arrow-down.png" alt="" />
+                    </div>
+                </div>
+                <div className="grid grid-cols-1 lg:grid-cols-2 justify-items-center items-center gap-5 mt-20">
+                    <div>
+                        <img className="w-9/12" src="../../../public/images/Rectangle 53.jpg" alt="" />
+                        <p className="mt-6 text-[#1CB5BD] font-medium">APRIL 26, 2022</p>
+                        <h4 className="mt-6 text-xl font-semibold">Updated Covid boosters rolled out a month ago. Here is how <br /> many Americans have gotten them.</h4>
+                        <p className="mt-4 text-[#5E5E5E]">The CDC recommends that everyone over 12 get an updated booster as <br /> long as at least two months have passed since their last Covid shot.</p>
+                        <p className="mt-4 text-[#1CB5BD] font-medium">Read More</p>
+                    </div>
+                    <div>
+                        <h1 className="text-3xl font-medium">Whats Trending?</h1>
+                        <div className="flex mt-14">
+                            <div>
+                                <img className="w-80" src="../../../public/images/Rectangle 53 (1).jpg" alt="" />
+                            </div>
+                            <div className="ms-6">
+                                <h3 className="text-xl text-[#1CB5BD] font-medium">Pumping Iron Improves Longevity in Older Adults</h3>
+                                <p className="mt-3">Those who report weightlifting show reductions in all-cause and cardiovascular disease-related mortality.</p>
+                            </div>
+                        </div>
+                        <div className="flex mt-10">
+                            <div>
+                                <img className="w-80" src="../../../public/images/jumb-2.jpg" alt="" />
+                            </div>
+                            <div className="ms-6">
+                                <h3 className="text-xl text-[#1CB5BD] font-medium">Monkeypox Case Rates 5 Times Higher Among Black Americans</h3>
+                                <p className="mt-3">events, exhibitions, publications, and initiatives hosted by, led by, or featuring members of the School of Art communityt</p>
+                            </div>
+                        </div>
+                        <div className="flex mt-10">
+                            <div>
+                                <img className="w-80" src="../../../public/images/Rectangle 53 (2).jpg" alt="" />
+                            </div>
+                            <div className="ms-6">
+                                <h3 className="text-xl text-[#1CB5BD] font-medium">The Happy Hormone: Why We Should not Mess With Dopamine</h3>
+                                <p className="mt-3">Mailchimp emails and announcements sent out by the Yale School of Art’s Communications Office</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* What you need to know about healthy living */}
+
         </div>
     );
 };
