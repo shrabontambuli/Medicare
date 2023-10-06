@@ -50,7 +50,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <p className="text-sm lg:text-lg font-medium mt-20 flex justify-center items-center">Copyright  <img className="w-8" src="/icons/icons8-copyright-96.png" alt="" />  2023.All rights reserved by Shrabon Tambuli</p>
+            <p className="text-sm lg:text-lg font-medium mt-24 flex justify-center items-center">Copyright  <img className="w-8" src="/icons/icons8-copyright-96.png" alt="" />  2023.All rights reserved by Shrabon Tambuli</p>
         </div>
     );
 };
