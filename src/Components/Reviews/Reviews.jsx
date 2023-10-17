@@ -2,7 +2,7 @@
 
 const Reviews = () => {
     return (
-        <div>
+        <div className="mt-32">
             <img className="mt-16" src="/images/Desktop - 10.png" alt="" />
         </div>
     );

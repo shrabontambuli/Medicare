@@ -2,7 +2,7 @@
 
 const Work = () => {
     return (
-        <div>
+        <div className="mt-32">
             <img className="mt-16" src="/images/Desktop - 1.png" alt="" />
         </div>
     );

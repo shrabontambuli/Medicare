@@ -6,7 +6,7 @@ const Home = () => {
 
             {/* banner section */}
 
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 items-center px-5 lg:px-0">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 items-center px-5 lg:px-0 mt-24 lg:mt-32">
                 <div>
                     <h1 className="text-5xl font-medium">Your Health Comes First.</h1>
                     <img className="mt-4" src="/icons/output-onlinepngtools (1) 2.png"
