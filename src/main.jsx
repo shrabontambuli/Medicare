@@ -10,6 +10,7 @@ import Home from './Components/Home/Home.jsx';
 import Reviews from './Components/Reviews/Reviews.jsx';
 import ErrorPage from './Components/ErrorPage/ErrorPage.jsx';
 import Work from './Components/Work/Work.jsx';
+import FindDoctor from './Pages/FindDoctor/FindDoctor.jsx';
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: "/works",
         element: <Work/>,
+      },
+      {
+        path: "/find-doctor",
+        element: <FindDoctor/>,
       },
      
     ],

@@ -16,7 +16,7 @@ const Header = () => {
       </li>
       <li>
         <NavLink
-          to="/doctor"
+          to="/find-doctor"
           className={({ isActive }) => (isActive ? "text-[#1CB5BD]" : "")}
         >
           Find Docter
