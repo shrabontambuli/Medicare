@@ -431,19 +431,19 @@ const Home = () => {
 
             {/* What you need to know about healthy living */}
 
-            <div className="mt-28 px-5 lg:px-16">
-                <div className="grid grid-cols-2 justify-items-center">
+            <div className="mt-28">
+                <div className="md:flex justify-center md:justify-between text-center md:text-start">
                     <div>
-                        <h2 className="text-xl lg:text-3xl lg:-ms-32">What you need to know about healthy <br /> living</h2>
+                        <h2 className="text-xl lg:text-3xl">What you need to know about healthy <br /> living</h2>
                     </div>
-                    <div className="flex items-center lg:ms-80">
+                    <div className="flex items-center justify-center mt-4 md:mt-0 md:justify-end lg:ms-80">
                         <p className="text-[#1CB5BD] font-medium me-2">See More</p>
                         <img src="/icons/akar-icons_arrow-down.png" alt="" />
                     </div>
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-2 justify-items-center items-center gap-5 mt-20">
-                    <div>
-                        <img className="w-9/12" src="/images/Rectangle 53.jpg" alt="" />
+                    <div className="w-full">
+                        <img className="w-full h-96" src="/images/Rectangle 53.jpg" alt="" />
                         <p className="mt-6 text-[#1CB5BD] font-medium">APRIL 26, 2022</p>
                         <h4 className="mt-6 text-xl font-semibold">Updated Covid boosters rolled out a month ago. Here is how <br /> many Americans have gotten them.</h4>
                         <p className="mt-4 text-[#5E5E5E]">The CDC recommends that everyone over 12 get an updated booster as <br /> long as at least two months have passed since their last Covid shot.</p>
@@ -462,7 +462,7 @@ const Home = () => {
                         </div>
                         <div className="flex mt-10">
                             <div>
-                                <img className="w-80" src="/images/jumb-2.jpg" alt="" />
+                                <img className="w-96" src="/images/jumb-3.avif" alt="" />
                             </div>
                             <div className="ms-6">
                                 <h3 className="text-xl text-[#1CB5BD] font-medium">Monkeypox Case Rates 5 Times Higher Among Black Americans</h3>
