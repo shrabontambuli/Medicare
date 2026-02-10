@@ -46,6 +46,18 @@ const Header = () => {
           Reviews
         </NavLink>
       </li>
+      {user ? (
+        <li>
+          <NavLink
+            to="/dashboard"
+            className={({ isActive }) => (isActive ? "text-[#1CB5BD]" : "")}
+          >
+            Dashboard
+          </NavLink>
+        </li>
+      ) : (
+        <></>
+      )}
     </>
   );
   return (
@@ -185,7 +197,6 @@ const Header = () => {
                 src={user?.photoURL}
                 alt=""
               />
-              
             </div>
           ) : (
             <div className="flex items-center gap-2">
